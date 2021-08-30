@@ -22,3 +22,18 @@ print(type(str(a)))
 print(type(float(a)))
 print(70+float("100.5"))
 print(str(70)+str(100))
+
+#add digits of a 2 digit number
+num=int(input("Enter a number"))
+a=num%10
+num=num-a
+b=num/10
+print(a+b)
+
+OR
+
+#add digits of a 2 digit number
+num=(input("Enter a number"))
+a=int(num[1])
+b=int(num[0])
+print(a+b)
