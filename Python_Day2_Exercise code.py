@@ -60,10 +60,20 @@ weight=37.8
 s=True
 print(f"I weigh {weight} and is {height} tall. Yes it's {s}!")
 
+#BMI Calculator
 height = float(input("enter your height in m: "))
 weight = int(input("enter your weight in kg: "))
 h=(height)**2
 print(round((weight)/h))
+
+#Your life in weeks
+age = int(input("What is your current age?"))
+x=(90-age)*365
+y=(90-age)*52
+z=(90-age)*12
+print(f"You have {x} days, {y} weeks, and {z} months left")
+
+
 
 
 
