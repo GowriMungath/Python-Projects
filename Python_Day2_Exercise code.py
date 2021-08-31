@@ -59,3 +59,11 @@ height=150.9
 weight=37.8
 s=True
 print(f"I weigh {weight} and is {height} tall. Yes it's {s}!")
+
+height = float(input("enter your height in m: "))
+weight = int(input("enter your weight in kg: "))
+h=(height)**2
+print(round((weight)/h))
+
+
+
