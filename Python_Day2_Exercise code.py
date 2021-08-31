@@ -37,3 +37,25 @@ num=(input("Enter a number"))
 a=int(num[1])
 b=int(num[0])
 print(a+b)
+
+print(5+6)
+print(6-3)
+print(3*4)
+print(7/3)
+print(int(7/3))
+print(7//3)
+print(type(6/3))
+print(2**3)
+print(3*3+3/3-3)
+print(3*(3+3)/3-3)
+print(8/3)
+print(round(8/3))
+print(round(8/3, 3))
+a=5
+print(a)
+a/=2
+print(a)
+height=150.9
+weight=37.8
+s=True
+print(f"I weigh {weight} and is {height} tall. Yes it's {s}!")
