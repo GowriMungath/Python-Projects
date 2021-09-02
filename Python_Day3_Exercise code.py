@@ -45,4 +45,21 @@ elif year%4==0:
 else:
   print("Not a leap year")
 
+#Roller coaster again
+height=float(input("Enter your height in Cms: "))
+if height>120:
+    print("welcome to the roller coaster ride!")
+    age=int(input("Enter your age: "))
+    if age<12:
+        bill=5
+    elif age<=18:
+        bill=7
+    else:
+        bill=12
+    ans=input("Do you want picture ? Y or N ")
+    if ans=="Y":
+        bill+=3
+    print(f"Please pay {bill}.")
+else:
+    print("Entry denied!")
 
