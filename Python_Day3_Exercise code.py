@@ -86,4 +86,31 @@ if extra_cheese=="Y":
 
 print(f"Your final bill is: {bill}.")
 
+#Love Calculator
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+name=name1+name2
+count1=0
+a=len(name)
+for i in range(a):
+  if name[i]=="T"or name[i]=="R" or name[i]=="U" or name[i]=="E"or name[i]=="t"or name[i]=="r" or name[i]=="u" or name[i]=="e":
+    count1+=1
+
+count2=0
+a=len(name)
+for i in range(a):
+  if name[i]=="L"or name[i]=="O" or name[i]=="V" or name[i]=="E" or name[i]=="l"or name[i]=="o" or name[i]=="v" or name[i]=="e":
+    count2+=1
+
+final=str(count1)+str(count2)
+if int(final)<10 or int(final)>90:
+  print(f"Your score is {final}, you go together like coke and mentos.")
+elif int(final)>40 and int(final)<50:
+  print(f"Your score is {final}, you are alright together.")
+else:
+  print(f"Your score is {final}.")
+
+
+
 
