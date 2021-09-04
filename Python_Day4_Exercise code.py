@@ -23,3 +23,11 @@ print(districts)
 import random as r
 per=r.randint(1,100)
 print(f"Your love has {per}% chance of success.")
+
+import random as r
+num=r.randint(0,1)
+if num==0:
+  print("Heads")
+elif num==1:
+  print("Tails")
+
