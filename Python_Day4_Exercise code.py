@@ -31,3 +31,10 @@ if num==0:
 elif num==1:
   print("Tails")
 
+names=input("Enter each person's name seperated by a comma: ")
+names=names.split(",")
+import random as r
+name=names[r.randint(0,len(names)-1)]
+#name=r.choice(names)
+print(f"Today, {name} should pay the bill")
+
