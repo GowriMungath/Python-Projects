@@ -36,7 +36,9 @@ elif choice==2:
     
 com=r.choice(list)
 print(f"Computer choose: {com}")
-if choice==0 and com==scissor:
+if choice>2 or choice<0
+    print("Invalid choice")
+elif choice==0 and com==scissor:
     print("You win!")
 elif choice==0 and com==paper:
     print("You lose!")
@@ -54,13 +56,14 @@ elif choice==2 and com==rock:
     print("You lose!")
 elif choice==2 and com==scissor:
     print("Draw")
-elif choice>2 or choice<0
-    print("Invalid choice")
+
     
       OR
         
 com=r.randint(0,2)
-if com==0:
+if choice>2 or choice<0
+    print("Invalid choice")
+elif com==0:
     print(f"Computer choose: {rock}")
 elif com==1:
     print(f"Computer choose: {paper}")
@@ -74,6 +77,4 @@ elif choice<com:
     print("You lose!")
 elif choice>com:
     print("You win!")
-elif choice>2 or choice<0
-    print("Invalid choice")
-     
+
