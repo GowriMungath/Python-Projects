@@ -50,3 +50,7 @@ r=int(position[1])
 map[r-1][c-1]='X'
 print(f"{row1}\n{row2}\n{row3}")
 
+Family =list(("Achan","Amma","Kannettan","Ponnu","Sreekutty","Dilu"))
+print(len(Family))
+print(type(Family))
+print(Family)
