@@ -54,7 +54,8 @@ elif choice==2 and com==rock:
     print("You lose!")
 elif choice==2 and com==scissor:
     print("Draw")
-
+elif choice>2 or choice<0
+    print("Invalid choice")
     
       OR
         
@@ -73,5 +74,6 @@ elif choice<com:
     print("You lose!")
 elif choice>com:
     print("You win!")
-
+elif choice>2 or choice<0
+    print("Invalid choice")
      
