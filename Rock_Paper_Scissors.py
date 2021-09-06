@@ -27,48 +27,12 @@ scissor = """
 list=[rock,paper,scissor]
 import random as r
 choice=int(input("Enter your choice: Type 0 for rock, Type 1 for paper, Type 2 for scissors \n"))
-if choice==0:
-    print(f"You choose: {rock}")
-elif choice==1:
-    print(f"You choose: {paper}")
-elif choice==2:
-    print(f"You choose: {scissor}")
-    
-com=r.choice(list)
-print(f"Computer choose: {com}")
-if choice>2 or choice<0
+if choice>2 or choice<0:
     print("Invalid choice")
-elif choice==0 and com==scissor:
-    print("You win!")
-elif choice==0 and com==paper:
-    print("You lose!")
-elif choice==0 and com==rock:
-    print("Draw!")
-elif choice==1 and com==scissor:
-    print("You lose!")
-elif choice==1 and com==rock:
-    print("You win!")
-elif choice==1 and com==paper:
-    print("Draw")
-elif choice==2 and com==paper:
-    print("You win!")
-elif choice==2 and com==rock:
-    print("You lose!")
-elif choice==2 and com==scissor:
-    print("Draw")
-
-    
-      OR
-        
+    exit(0)
+print(f"You choose: {list[choice]}")
 com=r.randint(0,2)
-if choice>2 or choice<0
-    print("Invalid choice")
-elif com==0:
-    print(f"Computer choose: {rock}")
-elif com==1:
-    print(f"Computer choose: {paper}")
-else:
-    print(f"Computer choose: {scissor}")
+print(f"Computer choose: {list[com]}")
 if choice==com:
     print("Draw")
 if choice==2 and com==0:
@@ -77,4 +41,3 @@ elif choice<com:
     print("You lose!")
 elif choice>com:
     print("You win!")
-
