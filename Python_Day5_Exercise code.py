@@ -21,5 +21,9 @@ for i in student_scores:
     high=i
 print(f"The highest score in the class is: {high}")
 
+fruits=input("Enter a list of fruits: ").split(" ")
+print(fruits)
+for i in fruits:
+    print(i)
 
 
