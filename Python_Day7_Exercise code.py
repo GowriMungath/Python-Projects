@@ -19,7 +19,7 @@ display=[]
 for i in chosen_word:
   display.append("_")
 guess = input("Guess a letter: ").lower()
-for i in range(len(chosen_word)-1):
+for i in range(len(chosen_word)):
     if chosen_word[i] == guess:
         display[i]=guess;
 print(display)
