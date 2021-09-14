@@ -16,4 +16,21 @@ test_w = int(input("Width of wall: "))
 coverage = 5
 paint_calc(height=test_h, width=test_w, cover=coverage)
  
+#primechecker
+def prime_checker(number):
+  flag=0
+  r=(int(number/2)+1)
+  for i in range(2,r):
+    if(number%i==0):
+      flag=1
+      break
+  if(flag==0):
+    print("Prime")
+  elif(flag==1):
+    print("Not Prime")
+n = int(input("Check this number: "))
+prime_checker(number=n)
+
+
+
 
