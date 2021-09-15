@@ -46,4 +46,47 @@ for i in student_scores:
     
 print(student_grades)
 
+#nested_dictionary example code
+Tamil={"Erode","Chennai","Kanchipuram"}
+punj=["Bhatinda","Patiala","Chattisgarh"]
+
+cities={
+    "Kerala":["Trivandrum","Kochi","Kozhikode"],
+    "Tamilnadu":Tamil,
+    "Karnataka":{"Bangalore","Sirjapur"},
+    "Punjab":punj
+    }
+
+print(cities)
+print("\n")
+print(cities["Tamilnadu"])
+print("\n")
+list=[cities,Tamil]
+print(list)
+print("\n")
+
+cities_1=[
+    
+    {"state1":"Kerala", "cities_visited":["Trivandrum","Kochi","Kozhikode"], "total_visits":10},
+    {"state2":"Tamilnadu","cities_visited":["Erode","Chennai","Kanchipuram"], "total_visits":3}
+
+]
+
+#country_number of visites_cities visited
+travel_log = [
+{
+  "country": "France",
+  "visits": 12,
+  "cities": ["Paris", "Lille", "Dijon"]
+},
+{
+  "country": "Germany",
+  "visits": 5,
+  "cities": ["Berlin", "Hamburg", "Stuttgart"]
+},
+]
+def add_new_country(country,num_visits,cit):
+  travel_log.append({"country":country,"visits":num_visits,"cities":cit})
+add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
+print(travel_log)
 
