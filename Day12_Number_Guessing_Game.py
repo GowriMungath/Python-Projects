@@ -27,7 +27,7 @@ for i in range(attempts):
         if inp<0 or inp>100:
                 print("Invalid input")
         elif inp==num:
-                print(f"Yayy🤩 That's right🔥 I guessed {num}!")
+                print(f"Woahhh🤩 That's right🔥 I guessed {num}!")
                 flag=1
                 exit(0)
         else:
