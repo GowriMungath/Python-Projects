@@ -33,7 +33,7 @@ def div(num1,num2):
 
 def main(*argsv):
     num2=float(input("What is the second number? "))
-    dict={"+":add(num1,num2),"-":sub(num1,num2),"*":mul(num1,num2),"/":div}
+    dict={"+":add(num1,num2),"-":sub(num1,num2),"*":mul(num1,num2),"/":div(num1,num2)}
     for i in dict:
         print(i)
     op=input("Pick an operation: ")
@@ -57,4 +57,3 @@ while(ch=="yes" or ch=="new"):
         
 if not ch=="yes" or ch=="no":
     print("Invalid choice!")
-
