@@ -28,7 +28,7 @@ winner=""
 for i in bidders:
     if(bidders[i]>highest):
         highest=bidders[i]
-        winner+=i
+        winner=i
 
 print(f"The winner is {winner} with a bid of Rs.{highest}.")
 
